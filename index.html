@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> Projet Dedicatus </title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div id="particles-js"></div>
+
+<div class="login hide-login">
+    <form class="login-container hide-form" method="POST" action="script-login.php">
+        <img src="https://image.flaticon.com/icons/png/512/2922/2922532.png" alt="" />
+
+        <div class="input-container hide-section">
+
+        	<?php if (isset($erreur)) { echo $erreur; } ?>
+
+            <input type="text" placeholder="Username" name="user" required>
+
+       		<input type="password" placeholder="Password" name="pass" required>
+
+      		<input type="submit" name="log" value="Login">
+
+        </div>
+    </form>
+
+    <script  src="js/scriptlog.js"></script>
+
+</div>
+
+
+<script src='https://cldup.com/S6Ptkwu_qA.js'></script><script  src="js/script.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,174 @@
+canvas {
+ display: block;
+  vertical-align: bottom;
+}
+
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #00356B;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+ 
+color: #fff;
+  max-width: 90%;
+  padding: 2em 3em;
+  background: rgba(0, 0, 0, 0.4);
+  
+text-shadow: 0px 0px 2px #131415;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+h1 {
+  font-size: 2.25em;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+
+a,
+a:visited {
+  color: #e34234;
+  transition: 0.25s;
+}
+
+
+a:hover,
+a:focus {
+  color: #ba160c;
+}
+
+body {
+    margin: 0;    padding: 0;    background: linear-gradient(45deg, #001a34, #000000);
+    font-family: "Open Sans", sans-serif;
+}
+
+
+form {
+    text-align: center;
+}
+
+
+.login {
+    width: 300px;
+   padding: 40px;   font-size: 16px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    box-shadow: 0 5px 6px #00000036;
+    transform: translate(-50%, -50%);
+    border-radius: 22px;
+     text-align: center;   overflow:hidden;     transition: 1s;
+    height: 410px;
+}
+
+
+/* Reset top and bottom margins from certain elements */
+
+
+.input-container {
+    opacity: 1;
+    transition: 1s;
+}
+
+
+img {
+    width: 80px;
+    border-radius: 50%;
+    padding: 12px;
+    box-shadow: 0 2px 6px #001a348a;
+}
+
+
+.login-header {
+    background: rgb(0, 55, 109);
+    padding: 20px;
+   font-size: 1.4em;
+   font-weight: normal;
+   text-align: center;
+    text-transform: uppercase;
+   
+ color: #fff;
+    padding-top: 32px;
+}
+
+
+.login-container {
+    background: rgb(0, 55, 109);
+    padding: 40px 30px;
+    transition: 1s;
+}
+
+
+/* Every row inside .login-container is defined with p tags */
+
+
+.login input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+
+
+.login input[type="text"],
+.login input[type="password"] {   border:0;
+    background: none;
+    margin: 20px auto;     text-align: center;    display: block;    color: white;    border: 2px solid #3498db;   width: 200px;
+   outline: none;    padding: 14px 10px; 
+   border-radius: 24px;
+    transition: 0.25s;}
+
+
+/* Text fields' focus effect */
+
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+   width: 280px;   border-color: #2ecc71;}
+
+
+.login input[type="submit"] {
+    border:0;
+    width: 200px;
+    background: none;
+    display: block;
+     margin: 20px auto;
+     text-align: center;    border: 2px solid #2ecc71;
+    padding: 14px 40px;    outline: none;
+     color: white;   border-radius: 24px;   transition: 0.25s;   cursor: pointer;}
+.login input[type="submit"] :hover{
+    background: #2ecc71;} 
+
+
+/* Animation */
+
+
+.hide-section {
+    opacity: 0;
+}
+
+
+.hide-form {
+    padding: 0;
+    padding-top: 27px;
+}
+
+
+.hide-login {
+    width: 165px;
+    height: 167px;
+    border-radius: 50%;
+}
